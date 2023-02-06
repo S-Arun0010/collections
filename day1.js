@@ -209,8 +209,8 @@ console.log(res5);
 //sort method
 console.log("sort method");
 let anime = ['haikyu','naruto','one Piece','Huunter X Hunter','My hero Academica','Death note','boruto'];
-let newanime = anime.sort();
-console.log(newanime);
+anime.sort();
+console.log(anime);
 
 //splice method
 console.log("splice method");
