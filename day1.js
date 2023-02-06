@@ -175,8 +175,8 @@ function myfun(a,b)
 
 //reduceright method
 console.log("reduceright method");
-console.log(arr12.reduceRight(myfun));
-function myfun(a,b)
+console.log(arr12.reduceRight(myfunc));
+function myfunc(a,b)
 {
     return a-b; 
 }
@@ -193,14 +193,14 @@ console.log(arr12);
 
 //slice method
 console.log("slice method");
-arr13  = [1,2,3,4,5,6,7,8,9,10,11,12];
-arr14 = arr13.slice(2,9);
+let arr13  = [1,2,3,4,5,6,7,8,9,10,11,12];
+let arr14 = arr13.slice(2,9);
 console.log(arr14);
 
 //some method
 console.log("some method");
-let res5 = arr13.some(check);
-function check(x)
+let res5 = arr13.some(checks);
+function checks(x)
 {
     return x>=12;
 }
@@ -209,7 +209,8 @@ console.log(res5);
 //sort method
 console.log("sort method");
 let anime = ['haikyu','naruto','one Piece','Huunter X Hunter','My hero Academica','Death note','boruto'];
-console.log(anime.sort());
+let newanime = anime.sort();
+console.log(newanime);
 
 //splice method
 console.log("splice method");
@@ -231,4 +232,5 @@ console.log(anime);
 //value of method
 console.log("value method");
 anime.valueOf(anime);
+
 
